@@ -8,22 +8,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" align=center>
         <div class="container">
           <h1 class="display-4">Google Integration</h1>
           <p class="lead">Testing robustness of Google Maps API</p>
         </div>
       </div>
-      <div>
-          Address: <input type="text" id="addressInput"><br>
+      <div align=center>
+          Address: <input type="text" id="addressInput"><br><br>
           <button type="button" class="btn btn-info" id="getMapBtn">getMap</button>
+          <button type="button" class="btn btn-info" id="nearByVetsBtn">Find Nearby Vets</button>
       </div>
-    <div class = "container">
-            <button type="button" class="btn btn-info" id="nearByVetsBtn">Find Nearby Vets</button>
+    <div class = "container" align=center>
         <div id = "map">
                 <iframe id= "google-map" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <div id = "nearbyVetArea">
         </div>
     </div>
     </div>
